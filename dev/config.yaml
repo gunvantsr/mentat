@@ -1,0 +1,19 @@
+app:
+  name: mentat
+  environment: development
+  version: 1.0.0
+
+server:
+  host: localhost
+  port: 9878
+
+nodes:
+  - name: node1
+    host: localhost
+    port: 9876
+  - name: node2
+    host: localhost
+    port: 9875
+  - name: node3
+    host: localhost
+    port: 9875
